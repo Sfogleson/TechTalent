@@ -1,0 +1,51 @@
+h1 {
+  color: red; 
+  text-align: center;
+}
+
+#thing1 {
+  color: #bf8040;
+  text-align: center;
+  text-decoration: underline;
+}
+
+body {
+  background-color: yellow;
+}
+
+.field {
+  background-color: pink;
+}
+
+/* unvisited link */
+a:link {
+    color: green;
+}
+
+/* visited link */
+a:visited {
+    color: maroon;
+}
+
+/* mouse over link */
+a:hover {
+    color: red;
+}
+
+/* selected link */
+a:active {
+    color: yellow;
+}
+
+/*.big-text {
+    font-weight: bold;
+    font-size: 48px;
+    color: green;
+    padding: 16px;
+    font-size: 72px;
+}*/
+
+div {
+  padding: 10px 15px 20px 25px;
+  border: dashed;
+}

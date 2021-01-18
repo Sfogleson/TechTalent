@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>My Travel Site</title>
+  <link rel="stylesheet" type="text/css" href="assets/stylesheets/travel.css">
+</head>
+<body>
+  <h1>Welcome to my Travel Site</h1>
+  <p class="big-text">This is a site about where I want to go</p>
+  <p id="thing1">example</p>
+  <div>
+    <p>Here are some places <span><b>I'd like to go</b></span></p>
+    <ul>
+      <li>
+        <a href="https://www.visitjamaica.com/" target="_blank">Jamaica</a>
+      </li>
+      <li>
+        <img src="assets/images/flag_tahiti.jpeg" height="20px">Tahiti
+      </li>
+    </ul>
+    <a href="example.html" target="_blank">go to example</a>
+    <table>
+      <tr>
+        <th>First name</th>
+        <th>Last name</th>
+      </tr>
+      <tr>
+        <td>David</td>
+        <td>Adams</td>
+      </tr>
+    </table>
+  </div>
+  <h2>Where do you want to go?</h2>
+  <!-- <form>
+    <label for="firstName">Name: </label>
+    <input type="text" id="firstName" name="firstName" autofocus placeholder="First Name"><br>
+  </form> -->
+  <form>
+    <label for="name">Name: </label>
+    <input class="field" type="text" id="name" name="name"><br>
+    <p>Select any that apply:</p>
+    <label for="spain">Spain</label>
+    <input type="checkbox" id="spain" name="spain"><br> 
+    
+    <input type="radio" id="france" name="france">
+    <label for="france">France</label><br>
+
+    <label for="portugal">Portugal</label>
+    <input type="checkbox" id="portugal" name="portugal"><br>
+
+    <label for="china">China</label>
+    <input type="checkbox" id="china" name="china"><br>
+    <label for="type">What is your favorite type of travel location?</label>
+    <select id="type" name="type">
+      <option value="beach">Beach</option>
+      <option value="mountains">Mountains</option>
+      <option value="city" selected>City</option>
+    </select>
+    <br><br>
+    <textarea class="field" id="bio" name="bio" rows="7" cols="50">
+      Tell me a bit more about yourself.
+    </textarea>
+    <br><br>
+    <input type=submit value="Let's hike!">
+  </form>
+</body>
+</html>
